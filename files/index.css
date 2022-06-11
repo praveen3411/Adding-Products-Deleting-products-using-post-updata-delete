@@ -1,0 +1,81 @@
+*{
+    margin: 3px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+#options{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#bow{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#bow input{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#bow h1{
+    text-align: center;
+}
+#rama{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-top-color: red;
+    border-bottom-color: red;
+}
+#boom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(40,auto);
+    grid-gap: 10px;
+}
+#boom div{
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
+#boom div img{
+    width: 400px;
+    height: 400px;
+}
+#boom div h2,h3{
+    text-align: center;
+}
+#com{
+    width: 350px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#com input{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#com h1{
+    text-align: center;
+}
